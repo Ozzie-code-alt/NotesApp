@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Satisfy&display=swap');
+*{
+    padding: 0%;
+    margin: 0;
+    outline: red 1px dotted;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+
+
+.main-container{
+    background-color: #030027 ;
+    height: 100vh;
+  
+    grid-gap: 10px;
+
+}
+.main-container .header-container{
+display: grid;
+align-items: center;
+justify-content: center;
+}
+.main-container .header-container .h1-container{
+    padding-top: 1rem;
+}
+
+.main-container .header-container .btn-container{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.main-container .header-container .btn-container button{
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 1rem;
+    background-color: #dc9e82;
+}
+
+.a.main-container .notes-Container{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 20px;
+}
+
+.main-container .notes-Container .sticky-note{
+height: 20rem;
+width: 20rem;
+background-color: #f2f3d9;
+border-radius: 15px;
+}
+
+.main-container .notes-Container .sticky-note .title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.main-container .notes-Container .sticky-note .title-container h1{
+    color: black;
+}
+
+.main-container .notes-Container .sticky-note .note-content p{
+    color:  black;
+}
