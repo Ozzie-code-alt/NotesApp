@@ -38,17 +38,19 @@ justify-content: center;
     background-color: #dc9e82;
 }
 
-.a.main-container .notes-Container{
+.main-container .notes-Container{
 display: grid;
 grid-template-columns: repeat(3,1fr);
 grid-gap: 20px;
 }
 
 .main-container .notes-Container .sticky-note{
+display: grid;
 height: 20rem;
 width: 20rem;
 background-color: #f2f3d9;
 border-radius: 15px;
+margin: 1rem;
 }
 
 .main-container .notes-Container .sticky-note .title-container{
@@ -64,4 +66,5 @@ border-radius: 15px;
 
 .main-container .notes-Container .sticky-note .note-content p{
     color:  black;
+    padding: 10px;
 }
